@@ -21,8 +21,41 @@
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
         <a-marker preset="hiro">
-            <a-entity id="box" geometry="primitive: box; width: 0.2; depth: 0.2; height: 0.2" position="0 0 0" material="color: #4CC3D9"></a-entity>
+            
+            <a-entity id="annyang" annyang-speech-recognition></a-entity>
+            
+            <!-- Snow with speech commands -->
+            <a-entity 
+            id="snow" 
+            speech-command__show="command: start; type: attribute; attribute: visible; value: true;"
+            speech-command__hide="command: stop; type: attribute; attribute: visible; value: false;"
+            position="0 2.25 -15" 
+            particle-system="preset: snow; size: 7; particleCount: 7500;">
+            </a-entity>
+
+            <!-- Snowman Carrot Nose -->
+            <a-entity id="box" geometry="primitive: box; width: 0.02; depth: 0.3; height: 0.02" position="0 0.975 0.1" material="color: #ff7500"></a-entity>
+
+            <!-- Snowman Hands -->
+            <a-entity id="box" geometry="primitive: box; width: 0.8; depth: 0.025; height: 0.025" position="0 0.7 0" material="color: #3d1c00"></a-entity>
+
+            <!-- Snowman Small Ball -->
+            <a-sphere position="0 0.975 0" radius="0.15" color="#c5d1e3"></a-sphere>
+
+            <!-- Snowman Medium Ball -->
+            <a-sphere position="0 0.7 0" radius="0.20" color="#c5d1e3"></a-sphere>
+
+            <!-- Snowman Big Ball -->
+            <a-sphere position="0 0.35 0" radius="0.25" color="#c5d1e3"></a-sphere>
+
+            <!-- Cuboid Base -->
+            <a-entity id="box" geometry="primitive: box; width: 0.7; depth: 0.7; height: 0.1" position="0 0.15 0" material="color: #00b3ff"></a-entity>
+
+            <!-- Cylindrical Base -->
+            <a-cylinder position="0 0.05 0" radius="0.5" height="0.1" color="#008dc9"></a-cylinder>
+
         </a-marker>
+        
         <a-entity camera></a-entity>
         </a-scene>
     </body>
