@@ -1,9 +1,9 @@
 # Lesson: Interaction Design
 
-### First and Last Name: Ευστράτιος Κουτουλάκης
+### First and Last Name: Ευστράτιος Κουτουλάκης / Efstratios Koutoulakis
 ### University Registration Number: dpsd19061
-### GitHub Personal Profile: [λαλαλαΣ]https://github.com/dpsd19061
-### Augmented Reality Personal Repository: xxx
+### GitHub Personal Profile: [λαλαλαΣ](https://github.com/dpsd19061)
+### Augmented Reality Personal Repository: https://github.com/dpsd19061/Augmented-Reality
 
 # Introduction
 
