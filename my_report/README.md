@@ -2,8 +2,8 @@
 
 ### First and Last Name: Ευστράτιος Κουτουλάκης / Efstratios Koutoulakis
 ### University Registration Number: dpsd19061
-### GitHub Personal Profile: [λαλαλαΣ](https://github.com/dpsd19061)
-### Augmented Reality Personal Repository: https://github.com/dpsd19061/Augmented-Reality
+### GitHub Personal Profile: [URL](https://github.com/dpsd19061)
+### Augmented Reality Personal Repository: [URL](https://github.com/dpsd19061/Augmented-Reality)
 
 # Introduction
 
