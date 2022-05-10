@@ -20,11 +20,21 @@
     embedded
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
-        <a-marker-camera type='pattern' url='assets/pattern-dpsd19061.patt'>
-            <a-image src="assets/4.1.PNG" position="0 0.1 0"></a-image>
-            <a-text value="Toulis" position="0 1 0"></a-text>
-            <a-sphere position="0 0.975 0" radius="0.15" color="#c5d1e3"></a-sphere>
-        </a-marker-camera>
+        <a-marker type='pattern' url='assets/pattern-dpsd19061.patt'>
+            <a-image src="assets/4.1.PNG" position="0 0.5 0"></a-image>
+            <a-text value="Stratos Koutoulakis" position="-0.95 1.2 0"></a-text>
+        </a-marker>
+
+        <a-marker type='pattern' url='assets/hydrogen_marker.patt'>
+            <a-sphere position="0 0.35 0" radius="0.25" color="#c5d1e3"></a-sphere>
+        </a-marker>
+
+        <a-assets>
+            <a-asset-item id="oxygen" src="assets/oxygen.gltf"></a-asset-item>
+        </a-assets>
+        <a-marker type='pattern' url='assets/oxygen_marker.patt'>
+              <a-entity gltf-model="#oxygen" animation-mixer scale= "0.3 0.3 0.3" position="0 0.5 0" ></a-entity>
+        </a-marker>
   
         <a-marker preset="hiro">
             
