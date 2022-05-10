@@ -20,6 +20,12 @@
     embedded
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
+        <a-marker type='pattern' url='assets/oxygen_marker.patt'>
+            <a-image src="assets/4.1.PNG" position="0 0.1 0"></a-image>
+            <a-text value="Toulis" position="0 0.2 0"></a-text>
+            <a-sphere position="0 0.975 0" radius="0.15" color="#c5d1e3"></a-sphere>
+        </a-marker>
+  
         <a-marker preset="hiro">
             
             <a-entity id="annyang" annyang-speech-recognition></a-entity>
