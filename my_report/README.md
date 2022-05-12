@@ -81,11 +81,11 @@
 
 ### Απόσταση των Marker και Νερό
 
--->Texto
+--> Για να προγραμματίσω το τελευταίο κομμάτι του παραδοτέου με βοήθησε [αυτή](https://stackoverflow.com/questions/61239107/how-to-get-marker-position-x-y-ar-js?fbclid=IwAR1Sn5znFMi_lntPM_S7T3aLX5rdjE2Fj5HIk7CQtOUiaG6ZdR-dc5mFcss) και [αυτή](https://aframe.io/docs/0.8.0/introduction/writing-a-component.html) η σελίδα. Ο κώδικας που έχω γράψει σε javascript κάνει το εξής: Βρίσκει τις θέσεις των δύο marker και υπολοχίζει την από στασή τους. Στη συνέχεια με ένα if statement εμφανίζει και εξαφανίζει τα κατάληλα entities ανάλογα την απόσταση.
 
 ![ScreenShot](k3.1.jpg)
 
--->Texto
+--> Τέλος στις δύο παρακάτω φωτογραφίες βλέπουμε τον τρόπο με τον οποίο καλώ το script που υπολογίζει την απόσταση ματαξύ των δύο marker και το πώς έχω κάνει animate το νερό, και ένα gif που δείχνει το πώς δουλεύει όλο το script. Όπως προανέφερα έβαλα τα entities του νερού μέσα στον marker του οξυγόνου έτσι ώστε να εμφανίζεται κάπου κοντά στα δύο marker
 
 ![ScreenShot](k3.2.1.jpg)
 
@@ -109,3 +109,7 @@ https://www.npmjs.com/package/aframe-speech-command-component
 https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
 
 https://aframe.io/docs/1.3.0/components/animation.html
+
+https://stackoverflow.com/questions/61239107/how-to-get-marker-position-x-y-ar-js?fbclid=IwAR1Sn5znFMi_lntPM_S7T3aLX5rdjE2Fj5HIk7CQtOUiaG6ZdR-dc5mFcss
+
+https://aframe.io/docs/0.8.0/introduction/writing-a-component.html
