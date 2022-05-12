@@ -28,6 +28,7 @@
 
 # 2nd Deliverable
 
+![Alt Text](name_and_photo.gif)
 
 # 3rd Deliverable 
 
