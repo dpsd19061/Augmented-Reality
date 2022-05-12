@@ -11,31 +11,161 @@
     <!-- speech command component -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
     <script src="build/aframe-speech-command-component.js"></script> 
-    
 
     <body style="margin : 0px; overflow: hidden;">
         <a-scene
-    vr-mode-ui="enabled: false;"
-    renderer="logarithmicDepthBuffer: true;"
-    embedded
-    arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
-  >
+        vr-mode-ui="enabled: false;"
+        renderer="logarithmicDepthBuffer: true;"
+        embedded
+        arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
+
+        <!-- The following script calculates the distance beetween two markers -->
+        <script>
+            AFRAME.registerComponent("distance_of_the_markers", {
+            
+            init: function () 
+            {
+                this.hydrogen2 = document.querySelector('#hydrogen_r_2')
+                this.hydrogen1 = document.querySelector('#hydrogen_r_1')
+                this.hydrogen = document.querySelector('#hydrogen_r')
+
+                this.oxygen2 = document.querySelector('#oxygen_r_2')
+                this.oxygen1 = document.querySelector('#oxygen_r_1')
+                this.oxygen = document.querySelector('#oxygen_r')
+
+                this.water1 = document.querySelector('#water_a_r')
+                this.water = document.querySelector('#water_a')
+
+                this.marker1 = document.querySelector('#hydrogen_marker')
+                this.marker2 = document.querySelector('#oxygen_marker')
+            },
+            tick: function() 
+            {
+                var marker1Pos, marker2Pos, markerDistance 
+
+               
+                marker1Pos = new THREE.Vector3();
+                this.marker1.object3D.getWorldPosition(marker1Pos);
+
+                marker2Pos = new THREE.Vector3();
+                this.marker2.object3D.getWorldPosition(marker2Pos);
+
+                markerDistance = marker1Pos.distanceTo(marker2Pos);
+
+                if (markerDistance < 2) 
+                {
+                    this.water.setAttribute("visible", true)
+                    this.water1.setAttribute("visible", true)
+
+                    this.hydrogen.setAttribute("visible", false)
+                    this.hydrogen1.setAttribute("visible", false)
+                    this.hydrogen2.setAttribute("visible", false)
+
+                    this.oxygen.setAttribute("visible", false)
+                    this.oxygen1.setAttribute("visible", false)
+                    this.oxygen2.setAttribute("visible", false)
+                }
+                else 
+                {
+                    this.water.setAttribute("visible", false)
+                    this.water1.setAttribute("visible", false)
+
+                    this.hydrogen.setAttribute("visible",true) 
+                    this.hydrogen1.setAttribute("visible",true) 
+                    this.hydrogen2.setAttribute("visible",true) 
+
+                    this.oxygen.setAttribute("visible",true) 
+                    this.oxygen1.setAttribute("visible",true)
+                    this.oxygen2.setAttribute("visible",true)
+                }
+            },
+        });
+        </script> 
+
+        <!-- Calling the script to calculate the distance -->
+        <a-entity distance_of_the_markers></a-entity>
+
+        <!-- Marker with name and picture -->
         <a-marker type='pattern' url='assets/pattern-dpsd19061.patt'>
-            <a-image src="assets/4.1.PNG" position="0 0.5 0"></a-image>
+            <a-image src="assets/photo.jpg" position="0 0.5 0"></a-image>
             <a-text value="Stratos Koutoulakis" position="-0.95 1.2 0"></a-text>
         </a-marker>
 
-        <a-marker type='pattern' url='assets/hydrogen_marker.patt'>
-            <a-sphere position="0 0.35 0" radius="0.25" color="#c5d1e3"></a-sphere>
+        <!-- Loading assets for hydrogen -->
+        <a-assets>  
+            <a-asset-item id="hydrogen_ring_1" src="assets/hydrogen_ring_1.gltf"></a-asset-item>
+            <a-asset-item id="hydrogen_ring_2" src="assets/hydrogen_ring_2.gltf"></a-asset-item>
+            <a-asset-item id="hydrogen" src="assets/hydrogen.gltf"></a-asset-item>
+        </a-assets>
+
+        <!-- Marker for hydrogen -->
+        <a-marker id="hydrogen_marker" type='pattern' url='assets/hydrogen_marker.patt'>
+            <a-entity gltf-model="#hydrogen_ring_2" 
+            id="hydrogen_r_2"
+            scale= "0.2 0.2 0.2" 
+            position="0 0.5 0" 
+            animation="property: rotation; to: 360 360 360; easing: linear; loop: true; dur: 2000">
+          </a-entity>
+          <a-entity gltf-model="#hydrogen_ring_1" 
+              id="hydrogen_r_1"
+              scale= "0.2 0.2 0.2" 
+              position="0 0.5 0" 
+              animation="property: rotation; to: 360 360 0; easing: linear; loop: true; dur: 2000">
+          </a-entity>
+          <a-entity gltf-model="#hydrogen" 
+              id="hydrogen_r"
+              scale= "0.2 0.2 0.2" 
+              position="0 0.5 0"
+              animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 10000">
+          </a-entity>
         </a-marker>
 
-        <a-assets>
+        <!-- Loading assets for oxygen -->
+        <a-assets>  
+            <a-asset-item id="oxygen_ring_1" src="assets/oxygen_ring_1.gltf"></a-asset-item>
+            <a-asset-item id="oxygen_ring_2" src="assets/oxygen_ring_2.gltf"></a-asset-item>
             <a-asset-item id="oxygen" src="assets/oxygen.gltf"></a-asset-item>
+
+            <!-- Loading assets for watern -->
+            <a-asset-item id="water_ani" src="assets/water_ani.gltf"></a-asset-item>
+            <a-asset-item id="water_ani_ring" src="assets/water_ani_ring.gltf"></a-asset-item>
         </a-assets>
-        <a-marker type='pattern' url='assets/oxygen_marker.patt'>
-              <a-entity gltf-model="#oxygen" animation-mixer scale= "0.3 0.3 0.3" position="0 0.5 0" ></a-entity>
+
+        <!-- Marker for oxygen and water -->
+        <a-marker id="oxygen_marker" type='pattern' url='assets/oxygen_marker.patt'>
+            <a-entity gltf-model="#oxygen_ring_2"
+              id="oxygen_r_2" 
+              scale= "0.35 0.35 0.35" 
+              position="0 0.5 0" 
+              animation="property: rotation; to: 360 360 360; easing: linear; loop: true; dur: 5000">
+            </a-entity>
+            <a-entity gltf-model="#oxygen_ring_1"
+                id="oxygen_r_1" 
+                scale= "0.3 0.3 0.3" 
+                position="0 0.5 0" 
+                animation="property: rotation; to: 360 360 0; easing: linear; loop: true; dur: 5000">
+            </a-entity>
+            <a-entity gltf-model="#oxygen" 
+                id="oxygen_r"
+                scale= "0.3 0.3 0.3" 
+                position="0 0.5 0">
+            </a-entity>
+
+            <!-- Water entities -->
+            <a-entity gltf-model="#water_ani_ring"
+                id="water_a_r" 
+                scale= "0.3 0.3 0.3" 
+                position="0 0.5 0" 
+                animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 1000">
+            </a-entity>
+            <a-entity gltf-model="#water_ani" 
+                id="water_a"
+                scale= "0.3 0.3 0.3" 
+                position="0 0.5 0">
+            </a-entity>
         </a-marker>
-  
+
+        <!-- Hiro - Snowman - Marker -->
         <a-marker preset="hiro">
             
             <a-entity id="annyang" annyang-speech-recognition></a-entity>
@@ -72,6 +202,8 @@
 
         </a-marker>
         
+        <a-entity id="distance_of_the_markers"></a-entity>
+
         <a-entity camera></a-entity>
         </a-scene>
     </body>
