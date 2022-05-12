@@ -54,6 +54,18 @@
 
 ## 3o Κομμάτι Παραδοτέου
 
+-->Texto
+
+![ScreenShot](k3.1.jpg)
+
+-->Texto
+
+![ScreenShot](k3.2.1jpg)
+
+![ScreenShot](k3.2.2jpg)
+
+![Alt Text](oxy_hydro_water.gif)
+
 # 3rd Deliverable 
 
 
