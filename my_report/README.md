@@ -28,23 +28,34 @@
 
 # 2nd Deliverable
 
-![Alt Text](name_and_photo.gif)
-
-# 3rd Deliverable 
-
 ## 1o Κομμάτι Παραδοτέου
 
 -->Texto
 
 -->Texto
 
-![ScreenShot](K1.1.jpg)
+![ScreenShot](k1.1.jpg)
 
 ![Alt Text](name_and_photo.gif)
 
 ## 2o Κομμάτι Παραδοτέου
 
+-->Texto
+
+![ScreenShot](k2.1.jpg)
+
+![Alt Text](hydrogen_gif.gif)
+
+-->Texto
+
+![ScreenShot](k2.2.jpg)
+
+![Alt Text](oxygen_gif.gif)
+
 ## 3o Κομμάτι Παραδοτέου
+
+# 3rd Deliverable 
+
 
 # Conclusions
 
