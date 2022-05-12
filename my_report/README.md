@@ -40,11 +40,15 @@
 
 ## 2o Κομμάτι Παραδοτέου
 
+### Υδρογόνο
+
 -->Texto
 
 ![ScreenShot](k2.1.jpg)
 
 ![Alt Text](hydrogen_gif.gif)
+
+### Οξυγόνο
 
 -->Texto
 
