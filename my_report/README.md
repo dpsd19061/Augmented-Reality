@@ -9,7 +9,7 @@
 
 # Summary
 
-### [1st Deliverable](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#1st-deliverable)
+### [1st Deliverable](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#1st-deliverable-1)
 
 ### [2nd Deliverable](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#2nd-deliverable-1)
 
