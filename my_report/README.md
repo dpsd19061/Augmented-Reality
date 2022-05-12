@@ -60,9 +60,9 @@
 
 -->Texto
 
-![ScreenShot](k3.2.1jpg)
+![ScreenShot](k3.2.1.jpg)
 
-![ScreenShot](k3.2.2jpg)
+![ScreenShot](k3.2.2.jpg)
 
 ![Alt Text](oxy_hydro_water.gif)
 
