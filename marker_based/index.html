@@ -36,23 +36,23 @@
                 this.water1 = document.querySelector('#water_a_r')
                 this.water = document.querySelector('#water_a')
 
-                this.marker1 = document.querySelector('#hydrogen_marker')
-                this.marker2 = document.querySelector('#oxygen_marker')
+                this.marker_hydrog = document.querySelector('#hydrogen_marker')
+                this.marker_oxyg = document.querySelector('#oxygen_marker')
             },
             tick: function() 
             {
-                var marker1Pos, marker2Pos, markerDistance 
+                var marker_hydrog_pos, marker_oxyg_pos, marker_distance 
 
                
-                marker1Pos = new THREE.Vector3();
-                this.marker1.object3D.getWorldPosition(marker1Pos);
+                marker_hydrog_pos = new THREE.Vector3();
+                this.marker_hydrog.object3D.getWorldPosition(marker_hydrog_pos);
 
-                marker2Pos = new THREE.Vector3();
-                this.marker2.object3D.getWorldPosition(marker2Pos);
+                marker_oxyg_pos = new THREE.Vector3();
+                this.marker_oxyg.object3D.getWorldPosition(marker_oxyg_pos);
 
-                markerDistance = marker1Pos.distanceTo(marker2Pos);
+                marker_distance = marker_hydrog_pos.distanceTo(marker_oxyg_pos);
 
-                if (markerDistance < 2) 
+                if (marker_distance < 2) 
                 {
                     this.water.setAttribute("visible", true)
                     this.water1.setAttribute("visible", true)
