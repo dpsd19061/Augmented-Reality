@@ -26,6 +26,8 @@
 
 --> Τα χρώματα τα πήρα από αυτό το [color picker](https://www.google.com/search?q=color+picker&rlz=1C1CHWL_elGR959GR959&oq=color+picker&aqs=chrome..69i57j0i512l9.4037j0j15&sourceid=chrome&ie=UTF-8)
 
+![ScreenShot](snowman.jpg)
+
 # 2nd Deliverable
 
 ## 1o Κομμάτι Παραδοτέου
