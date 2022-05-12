@@ -9,6 +9,21 @@
 
 # Summary
 
+### [1st Deliverable](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#1st-deliverable)
+
+### [2nd Deliverable](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#2nd-deliverable-1)
+
+[1o Κομμάτι 2ου Παραδοτέου](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#1o-%CE%BA%CE%BF%CE%BC%CE%BC%CE%AC%CF%84%CE%B9-2%CE%BF%CF%85-%CF%80%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%CF%85)
+
+[2o Κομμάτι 2ου Παραδοτέου](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#2o-%CE%BA%CE%BF%CE%BC%CE%BC%CE%AC%CF%84%CE%B9-2%CE%BF%CF%85-%CF%80%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%CF%85)
+
+[3o Κομμάτι 2ου Παραδοτέου](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#3o-%CE%BA%CE%BF%CE%BC%CE%BC%CE%AC%CF%84%CE%B9-2%CE%BF%CF%85-%CF%80%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%CF%85)
+
+### [3rd Deliverable](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#3rd-deliverable-1)
+
+### [Conclusions](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#conclusions-1)
+
+### [Sources](https://github.com/dpsd19061/Augmented-Reality/edit/main/my_report/README.md#sources-1)
 
 # 1st Deliverable
 
@@ -90,3 +105,7 @@ https://aframe.io/docs/1.3.0/introduction/
 https://www.npmjs.com/package/aframe-particle-system-component
 
 https://www.npmjs.com/package/aframe-speech-command-component
+
+https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
+
+https://aframe.io/docs/1.3.0/components/animation.html
