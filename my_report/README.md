@@ -32,6 +32,19 @@
 
 # 3rd Deliverable 
 
+## 1o Κομμάτι Παραδοτέου
+
+-->Texto
+
+-->Texto
+
+![ScreenShot](K1.1.jpg)
+
+![Alt Text](name_and_photo.gif)
+
+## 2o Κομμάτι Παραδοτέου
+
+## 3o Κομμάτι Παραδοτέου
 
 # Conclusions
 
