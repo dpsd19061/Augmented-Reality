@@ -21,7 +21,7 @@
             })
           }
         })
-  </script>
+    </script>
 
 </head>
 
@@ -35,21 +35,27 @@
         <!-- Loading assets -->
         <a-asset-item id="pc2" src="assets/pc2.gltf"></a-asset-item>
 
+        <a-entity id="cameraRig">
+            <a-entity id="head" camera wasd-controls look-controls cursor="rayOrigin: mouse" position="0 1.6 0"></a-entity>
+        </a-entity>
+
+
         <!-- The entity for the car -->
+        
         <a-entity 
+            class="click"
+            
             gltf-model="#pc2" 
             id="project_car_2"
             scale= "1.5 1.5 1.5" 
             position="0 0.2 0" 
             animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 25000"
             gps-entity-place="latitude: 46.233670; longitude: 6.113173;"
-            class="click"
             text-show>
 
             <a-text 
                 class ="clickable"
                 visible="false"
-                id="text" 
                 value="Designed By Stratos Koutoulakis" 
                 position="0 1.5 0"
                 text="align: center"
