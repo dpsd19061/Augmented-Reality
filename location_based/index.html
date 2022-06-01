@@ -9,9 +9,16 @@
     <script src='build/aframe-ar-nft.js'></script>
 
     <script>
-        AFRAME.registerComponent('clicker', {
+        AFRAME.registerComponent('clicker', { 
             init: function() {
-                this.el.addEventListener('click', e => {
+
+                this.pcar2 = document.querySelector('#project_car_2')
+                this.txt = document.querySelector('#text')
+
+                this.pcar2.setAttribute("visible", true)
+
+                this.pcar2.addEventListener('click', e => {
+                    this.pcar2.setAttribute("visible", false)
                     alert('Box clicked!');
                 });
             }
@@ -40,7 +47,7 @@
         clicker>
         </a-entity>
 
-        <a-text value="Designed By Stratos Koutoulakis" position="-0.95 2 0"></a-text>
+        <a-text id="text" value="Designed By Stratos Koutoulakis" position="-0.95 2 0"></a-text>
 
         <!-- Inserted the coordinates -->
         <a-camera
