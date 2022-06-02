@@ -97,9 +97,25 @@
 
 ## 1o Κομμάτι 3ου Παραδοτέου
 
+![Alt Text](3.1g.gif)
+
+![ScreenShot](3.1p.jpg)
+
 ## 2o Κομμάτι 3ου Παραδοτέου
 
+![ScreenShot](3.2p.jpg)
+
+![ScreenShot](3.3p.jpg)
+
+![Alt Text](3.2g.gif)
+
 ## 3o Κομμάτι 3ου Παραδοτέου
+
+![Alt Text](3.3g.gif)
+
+![Alt Text](3.4g.gif)
+
+![ScreenShot](3.4p.jpg)
 
 # Conclusions
 
