@@ -162,3 +162,5 @@ https://aframe.io/docs/1.3.0/components/animation.html
 https://stackoverflow.com/questions/61239107/how-to-get-marker-position-x-y-ar-js?fbclid=IwAR1Sn5znFMi_lntPM_S7T3aLX5rdjE2Fj5HIk7CQtOUiaG6ZdR-dc5mFcss
 
 https://aframe.io/docs/0.8.0/introduction/writing-a-component.html
+
+https://glitch.com/~salty-partner-1
