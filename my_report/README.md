@@ -113,7 +113,9 @@
 
 ## 2o Κομμάτι 3ου Παραδοτέου
 
---> Texto
+### Click Event
+
+--> Για να καταφέρω να εμφανίζω και να εξαφανίζω κείμενο κλικάροντας πάνω στο μοντέλο βοηθήθηκα υπερβολικά από αυτή τη [σελίδα]([https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html](https://glitch.com/~salty-partner-1)) διότι δίνει ακριβείς απαντήσεις στο ζητούμενο της εργασίας.
 
 --> Texto
 
