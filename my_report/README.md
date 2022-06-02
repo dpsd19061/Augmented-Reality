@@ -25,7 +25,7 @@
 
 [2o Κομμάτι 3ου Παραδοτέου](https://github.com/dpsd19061/Augmented-Reality/blob/main/my_report/README.md#2o-%CE%BA%CE%BF%CE%BC%CE%BC%CE%AC%CF%84%CE%B9-3%CE%BF%CF%85-%CF%80%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%CF%85)
 
-[3o Κομμάτι 3ου Παραδοτέου]()
+[3o Κομμάτι 3ου Παραδοτέου](https://github.com/dpsd19061/Augmented-Reality/blob/main/my_report/README.md#3o-%CE%BA%CE%BF%CE%BC%CE%BC%CE%AC%CF%84%CE%B9-3%CE%BF%CF%85-%CF%80%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%CF%85)
 
 ### [Conclusions](https://github.com/dpsd19061/Augmented-Reality/blob/main/my_report/README.md#conclusions-1)
 
