@@ -97,23 +97,47 @@
 
 ## 1o Κομμάτι 3ου Παραδοτέου
 
+--> Texto
+
+--> Texto
+
 ![Alt Text](3.1g.gif)
+
+--> Texto
 
 ![ScreenShot](3.1p.jpg)
 
 ## 2o Κομμάτι 3ου Παραδοτέου
 
+--> Texto
+
+--> Texto
+
 ![ScreenShot](3.2p.jpg)
 
+--> Texto
+
 ![ScreenShot](3.3p.jpg)
+
+--> Texto
+
+--> Texto
 
 ![Alt Text](3.2g.gif)
 
 ## 3o Κομμάτι 3ου Παραδοτέου
 
+--> Texto
+
+--> Texto
+
 ![Alt Text](3.3g.gif)
 
+--> Texto
+
 ![Alt Text](3.4g.gif)
+
+--> Texto
 
 ![ScreenShot](3.4p.jpg)
 
