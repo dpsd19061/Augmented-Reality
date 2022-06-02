@@ -5,9 +5,7 @@
 ### GitHub Personal Profile: [URL](https://github.com/dpsd19061)
 ### Augmented Reality Personal Repository: [URL](https://github.com/dpsd19061/Augmented-Reality)
 
-# Introduction
-
-# Summary
+# Index
 
 ### [1st Deliverable](https://github.com/dpsd19061/Augmented-Reality/blob/main/my_report/README.md#1st-deliverable-1)
 
@@ -30,6 +28,10 @@
 ### [Conclusions](https://github.com/dpsd19061/Augmented-Reality/blob/main/my_report/README.md#conclusions-1)
 
 ### [Sources](https://github.com/dpsd19061/Augmented-Reality/blob/main/my_report/README.md#sources-1)
+
+# Introduction
+
+# Summary
 
 # 1st Deliverable
 
