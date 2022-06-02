@@ -8,10 +8,11 @@
     <!-- <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>-->
     <script src='build/aframe-ar-nft.js'></script>
 
+    <!-- This script toggles the visibility of the text when the 3d model is clicked -->
     <script>
         AFRAME.registerComponent("text-show", {
           init: function() {
-          let toggle = false
+            let toggle = false
             this.el.addEventListener("click", (e) => {
               let box = document.querySelectorAll(".clickable")
               box.forEach(function(el) {
@@ -22,7 +23,6 @@
           }
         })
     </script>
-
 </head>
 
 
@@ -35,16 +35,14 @@
         <!-- Loading assets -->
         <a-asset-item id="pc2" src="assets/pc2.gltf"></a-asset-item>
 
+        <!-- This entity is needed for the model in order to be  clickable -->
         <a-entity id="cameraRig">
             <a-entity id="head" camera wasd-controls look-controls cursor="rayOrigin: mouse" position="0 1.6 0"></a-entity>
         </a-entity>
 
-
-        <!-- The entity for the car -->
-        
+        <!-- The entity for the car and text -->
         <a-entity 
             class="click"
-            
             gltf-model="#pc2" 
             id="project_car_2"
             scale= "1.5 1.5 1.5" 
@@ -61,15 +59,13 @@
                 text="align: center"
                 animation="property: rotation; to: 0 -360 0; easing: linear; loop: true; dur: 25000">
             </a-text>
-            
+
         </a-entity>
 
-
-        <!-- Inserted the coordinates -->
+        <!-- Inserted the simulated coordinates -->
         <a-camera
             rotation-reader
             gps-camera="simulateLatitude: 46.233610; simulateLongitude: 6.113173; minDistance: 1; maxDistance: 700;">
 		</a-camera>
 	</a-scene>
 </body>
-
